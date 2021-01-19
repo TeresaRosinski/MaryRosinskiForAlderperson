@@ -1,0 +1,19 @@
+#alderman{
+  background-color:var(--primary-color);
+  color: var(--light-grey);
+  font-weight: 100;
+  padding-bottom: 5%;
+}
+.video{
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+  background: black;
+  border-radius: 3px;
+  padding:2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+}
+

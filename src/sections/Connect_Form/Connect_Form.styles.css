@@ -1,0 +1,156 @@
+#ContactForm {
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.form-input-long {
+  border: 1px #d3d3d3 solid;
+  border-radius: 3px;
+  padding: 3%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 7vh;
+  font-size: 15px;
+  font-weight: 300;
+}
+input {
+  outline: none;
+}
+input:focus {
+  border: 1px solid var(--primary-color);
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  font-family: "Lato";
+  height: 10vh;
+  border: 1px #d3d3d3 solid;
+  border-radius: 3px;
+  padding-left: 4%;
+  padding-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 20vh;
+  font-size: 15px;
+  font-weight: 300;
+}
+textarea:focus {
+  border: solid 1px var(--primary-color);
+}
+:placeholder-shown {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/*Buttons */
+.btn-mailing-list-long {
+  padding: 7px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #fe5437;
+  color: #fe5437;
+  background-color: white;
+  width: 100%;
+  padding: 2%;
+  font-size: 20px;
+  margin-top: 2%;
+  font-weight: 500;
+}
+.btn-mailing-list-long:hover,
+.btn-mailing-list-long:active {
+  border: 2px solid #f6f5f5;
+  color: #f6f5f5;
+  background-color: #fe5437;
+  cursor: pointer;
+}
+
+/* Customize the label (the container) */
+.container {
+  margin-left: 1%;
+  display: block;
+  position: relative;
+  padding-left: 5%;
+  margin-bottom: 2%;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  margin-right: 15%;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 2px;
+}
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: var(--primary-color);
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 7px;
+  top: 4px;
+  width: 4px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.NewCheck{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2%;
+  font-family: "Lato"
+}
+.smallContact{
+  margin-left: 1%;
+  font-family: "Lato"
+}
+label {
+  align-items: left !important;
+  text-align: left !important;
+  justify-content: flex-start !important;
+  color: var(--grey-color);
+}
+

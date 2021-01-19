@@ -1,0 +1,32 @@
+.GroupTextContainer {
+  display: flex;
+  flex-direction: column;
+  height: 45%;
+  width: 100%;
+  padding: 5%;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.90);
+}
+#GroupCardId {
+  background-size: cover;
+  background-position: center;
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 2px;
+  margin: 1%;
+  height: 50vh;
+  padding: 0%;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75);
+  filter: drop-shadow(0 1mm 1mm black);
+}
+.GroupTextContainer:hover {
+  transform: scale(1.03);
+  transition: 0.05s;
+}
+.GroupName {
+  font-size: 20px;
+}

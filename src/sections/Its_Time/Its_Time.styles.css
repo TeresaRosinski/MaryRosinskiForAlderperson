@@ -1,0 +1,51 @@
+#ItsTime {
+  background-color: var(--light-blue);
+  color: var(--grey-color);
+  background-image: url(./marytalking.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.ItsTime_Container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(29, 59, 106, 0.75);
+  width: 100%;
+  height: 100%;
+}
+.ItsTime_Title {
+  width: 30%;
+  margin-top: 1%;
+}
+.ItsTime_Bullets {
+  padding-top: 7%;
+  padding-bottom:10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  padding-right: 5%;
+}
+.ItsTime_Item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ItsTime_Number {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-right: 4%;
+}
+.ItsTime_Message {
+  font-size: 25px;
+  font-weight: 300;
+}
+.boldSpan {
+  font-weight: 700;
+}

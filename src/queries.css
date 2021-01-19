@@ -1,0 +1,327 @@
+/*For  Big screens (Widths smalle than the 1140px row) */
+@media only screen and (min-width: 1200px) {
+}
+
+/*For  Big tablets (Widths smaller than the 1140px row) */
+@media only screen and (max-width: 999px) {
+  /*nav bar*/
+  .BigAndBoldNav {
+    font-size: 1.5rem !important;
+  }
+  .menu-bars {
+    font-size: 1.5rem !important;
+  }
+  .nav-title {
+    font-weight: 300;
+    font-size: 20px !important;
+    color: var(--primary-color);
+    width: 100%;
+    padding-left: 2%;
+  }
+  /*BigQuoteContainer*/
+  .BigQuote-container {
+    padding-top: 2%;
+    flex-direction: column !important;
+    height: auto !important;
+    padding-bottom: 2%;
+  }
+  h1 {
+    font-size: 170%;
+    font-weight: 500;
+  }
+  .quote-container {
+    width: 80% !important;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .header-button-container {
+    flex-direction: row !important;
+    margin-top: 3%;
+    width: 90% !important;
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+    margin-bottom: 3% !important;
+  }
+  .header-button {
+    padding: 10% !important;
+  }
+  /*Its Time */
+  #ItsTime {
+    background-image: none !important;
+    height: 80% !important;
+  }
+  .ItsTime_Container {
+    flex-direction: column !important;
+    height: 100% !important;
+    margin-top: 0% !important;
+    padding-top: 0% !important;
+  }
+  .ItsTime_Title {
+    width: 100% !important;
+  }
+  .ItsTime_Bullets {
+    width: 80% !important;
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+    padding-top: 0% !important;
+  }
+
+  /*Who is Mary */
+  .WhoIsMary_Container {
+    flex-direction: column !important;
+    padding-top: 0% !important;
+  }
+  .why-image-container {
+    display: none !important;
+  }
+  .why-mary-text-content {
+    width: 80% !important;
+  }
+  .MaryAwardPic {
+    display: flex !important;
+  }
+  .MaryAwardPicText {
+    background-color: white;
+  }
+  .MaryAwardPicCol {
+    display: none !important;
+  }
+  /* Community Group Modal */
+  .GroupTextContainer {
+    height: 60% !important;
+    text-align: center;
+  }
+  .GroupName {
+    font-size: 20px !important;
+  }
+  #GroupCardId {
+    width: 40% !important;
+    height: 37vh !important;
+    padding: 1% !important;
+    margin: 1% !important;
+  }
+  /*Community Group Section */
+  .CommunityGroupsContainer {
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+  }
+  /* Mailing List Short Visual */
+  .mailing-list-short {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 40vh !important;
+  }
+  footer {
+    font-size: 90% !important;
+  }
+  .left-footer {
+    line-height: 1.2rem !important;
+  }
+}
+
+/*For  small tablets to large tablets up to 841 */
+@media only screen and (max-width: 841px) {
+  /*nav bar*/
+  .BigAndBoldNav {
+    font-size: 0.8rem !important;
+  }
+  .menu-bars {
+    font-size: 1rem !important;
+  }
+  .nav-title {
+    font-size: 15px !important;
+  }
+  .navbar_donate_button {
+    height: 142% !important;
+    padding: 2% !important;
+  }
+  .nav-menu.active {
+    width: 95% !important;
+  }
+  .nav-text {
+    height: 9% !important;
+    margin-top: 1% !important;
+    font-weight: 700 !important;
+  }
+  /*Header */
+  header {
+    height: 90vh !important;
+    background-image: none !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: var(--light-grey);
+  }
+  .Header-Image {
+    padding: 10% !important;
+    height: 80vh !important;
+  }
+  .TransclucentBackground {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  /*BigQuoteContainer*/
+  .BigQuote-container {
+    margin-top: 1% !important;
+    margin-bottom: 0% !important;
+  }
+  .header-button-container {
+    margin-top: 5%;
+    margin-bottom: 0% !important;
+  }
+  .quote-container {
+    margin: 0 !important;
+    text-align: left !important;
+  }
+  .header-button {
+    padding: 10% !important;
+  }
+  .video {
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+  }
+  p {
+    font-size: 20px !important;
+  }
+  h2 {
+    font-size: 200% !important;
+    font-weight: 300 !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .ItsTime_Container {
+    padding-top: 5% !important;
+  }
+  .WhoIsMary_Container {
+    margin-top: 5% !important;
+  }
+  li {
+    font-size: 20px;
+  }
+  .long-copy {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px !important;
+  }
+}
+
+/*For  small phones and tablets up to 357- 627 */
+@media only screen and (max-width: 650px) {
+  /*nav bar*/
+  .BigAndBoldNav {
+    font-size: 0.8rem !important;
+  }
+  .menu-bars {
+    font-size: 1rem !important;
+  }
+  .nav-title {
+    font-size: 12px !important;
+  }
+  .navbar_donate_button {
+    height: 120% !important;
+    padding: 2% !important;
+    font-size: 100% !important;
+    margin-right: 0 !important;
+  }
+  /*Header */
+  header {
+    height: 80vh !important;
+  }
+  .Header-Image {
+    padding: 10% !important;
+    height: 50vh !important;
+  }
+
+  /*BigQuoteContainer*/
+  .BigQuote-container {
+    margin-top: 7% !important;
+    margin-bottom: 0% !important;
+    padding: 0% !important;
+
+  }
+  .header-button-container {
+    margin-top: 2% !important;
+    margin-bottom: 7% !important;
+  }
+  .quote-container {
+    text-align: left;
+  }
+  .header-button {
+    padding: 5% !important;
+    font-size: 20px !important;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  h2 {
+    font-size: 40px !important;
+  }
+  h3 {
+    font-size: 15px !important;
+  }
+  .ItsTime_Container {
+    padding-top: 5% !important;
+  }
+  .WhoIsMary_Container {
+    margin-top: 7% !important;
+  }
+  .MaryAwardPic {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-top: 2% !important;
+  }
+  #alderman {
+    padding: 7% !important;
+  }
+  .video {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  li {
+    font-size: 20px;
+  }
+  #GroupCardId {
+    width: 80% !important;
+    height: 30vh !important;
+    padding: 0% !important;
+    margin: 2.5% !important;
+  }
+  .btn-mailing-list-short {
+    width: 80% !important;
+    padding: 5% !important;
+    margin-top: 5% !important;
+  }
+  .long-copy {
+    font-size: 16px !important;
+  }
+  #MailingList_Long {
+    padding-top: 5%;
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+    padding-bottom: 5%;
+    font-weight: 300 !important;
+  }
+  .container {
+    font-size: 14px !important;
+    font-weight: 300 !important;
+  }
+  .form-input-long {
+    font-weight: 300 !important;
+    height: 8vh !important;
+  }
+  .form-input-longs {
+    font-weight: 300 !important;
+  }
+}
+
+/*For  small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+}

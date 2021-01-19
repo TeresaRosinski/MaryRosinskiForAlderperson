@@ -1,0 +1,113 @@
+#CommunityGroups {
+  padding-top: 3%;
+  background-color: var(--primary-color);
+}
+#CommunityGroups h2 {
+  color: var(--white-color);
+}
+#GroupImageContainerHover:hover {
+  cursor: pointer;
+}
+.CommunityGroupsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  flex-wrap: wrap;
+}
+.DajaeColemanFoundation {
+  background-image: url(./DajaeColemanFoundation.jpg);
+
+}
+.DajaeColemanFoundation:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.NuNeighbors {
+  background-image: url(./NorthwesternNeighbors.png);
+
+}
+.NuNeighbors:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.CentralStreetNeighbors {
+  background-image: url(./CENTRALSTREETNEIGHBOR.png);
+
+}
+.CentralStreetNeighbors:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.EvanstonPublicLibraryFriends {
+  background-image: url(./EvanstonPublicLibraryFriends.jpg);
+
+}
+.EvanstonPublicLibraryFriends:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.NoParkSale {
+  background-image: url(./NoParkSale.png);
+ 
+}
+.NoParkSale:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.FriendsOfGilbertPark {
+  background-image: url(./friendsofgilbertpark.jpg);
+ 
+}
+.FriendsOfGilbertPark:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.EvanstonLakeHouseAndGardens {
+  background-image: url(./EvanstonLakehouseAndGardens.jpeg);
+
+}
+.EvanstonLakeHouseAndGardens:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.RobertCrown {
+  background-image: url(./FinanciallyResponsible.jpg);
+ 
+}
+.RobertCrown:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.JensJensen {
+  background-image: url(./JensjensengardensinEvanston.jpeg);
+ 
+}
+.JensJensen:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.EvanstonPoliceAndFire {
+  background-image: url(./EvanstonPoliceandFireFoundation.png);
+}
+.EvanstonPoliceAndFire:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+.LincolnwoodGardenClub {
+  background-image: url(./Lincolnwoodgardenclub.jpg);
+}
+.LincolnwoodGardenClub:hover {
+  transform: scale(1.05);
+  transition: 0.05s;
+}
+
+#card1 {
+  width: 30%;
+  margin: 0;
+}

@@ -1,0 +1,56 @@
+/*--------------------------------*/
+/*resusable components */
+/*--------------------------------*/
+
+.BigQuote-container {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--light-blue);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-button {
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 25%;
+  margin: 2%;
+  width: 100%;
+  text-align: center;
+}
+.button-1{
+  background-color: var(--secondary-color);
+  border-radius: 1px;
+  color: var(--white-color);
+}
+.button-1:hover{
+  color: var(--secondary-color);
+  background-color: var(--white-color);
+  border: solid 1px var(--secondary-color);
+}
+.button-2{
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+}
+.button-2:hover{
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  border: solid 1px var(--primary-color);
+  cursor: pointer;
+}
+.quote-container {
+  width: 70%;
+  margin: 0% 5%;
+}
+.header-button-container {
+  margin-right: 5%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+

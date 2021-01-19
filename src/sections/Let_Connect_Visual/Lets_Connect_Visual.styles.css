@@ -1,0 +1,32 @@
+.Mailing-List-Short {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.btn-mailing-list-short {
+  margin-top: 2%;
+  width: 25%;
+  padding: 2%;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 2px;
+  border: none;
+  color: var(--light-blue);
+  background-color: var(--primary-color);
+  filter: drop-shadow(0 2mm 1.5mm var(--primary-color));
+  
+}
+.btn-mailing-list-short:hover,
+.btn-mailing-list-short:active {
+  border: none;
+  color: #f6f5f5;
+  background-color: #fe5437;
+  filter: drop-shadow(0 0 0.1rem var(--secondary-color));
+  cursor: pointer;
+}

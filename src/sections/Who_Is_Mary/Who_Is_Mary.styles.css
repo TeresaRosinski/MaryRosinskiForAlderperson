@@ -1,0 +1,117 @@
+.WhoIsMary_Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5%;
+  background-color: var(--light-blue);
+}
+.WhoIsMary_Container p {
+  margin-top: 2%;
+  line-height: 30px;
+}
+.WhoIsMary_Container ul li {
+  list-style-type: none;
+  padding: 2% 3%;
+}
+.why-mary-text-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.why-image-container {
+  order: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.why-image-container:hover {
+  transform: scale(1.03);
+  transition: 1s;
+  cursor: pointer;
+}
+.why-image-wrapper {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+.pic1 {
+  background-image: url(../Who_Is_Mary/maryAward.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2px;
+  margin: 1%;
+  width: 100%;
+}
+.pic2 {
+  background-image: url(../Who_Is_Mary/RealtorSpringField.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2px;
+  margin: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.MaryAwardPic {
+  background-image: url(../Who_Is_Mary/maryAward.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2px;
+  margin: 2%;
+  width: 80%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  display: none;
+}
+.MaryAwardPicCol {
+  background-image: url(../Who_Is_Mary/maryAward.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2px;
+  margin: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.MaryAwardPicCol:hover{
+  transform: scale(1.03);
+  transition: 1s;
+  cursor: pointer;
+}
+.PicText {
+  padding: 5%;
+  background-color: rgba(250, 250, 250, 0.75);
+}
+.PicTextCol {
+  padding: 5%;
+  background-color: rgba(250, 250, 250, 0.75);
+}
+.pic3 {
+  background-image: url(../Who_Is_Mary/MaryWithOlder.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2px;
+  margin: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.BigAndBold {
+  font-weight: 700;
+  font-size: 20px;
+}
+.Italicized {
+  font-weight: 300;
+  font-style: italic;
+}
