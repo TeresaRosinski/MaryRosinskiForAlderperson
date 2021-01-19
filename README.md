@@ -1,4 +1,6 @@
-<h1 align="center"><strong>Mary Rosinski for Evanston, Illinois' 7th Distric Alderperson</strong></h1>
+<h1 align="center"><strong>Mary Rosinski for Evanston, Illinois' 7th Distric Alderperson
+[Mary Rosinski For 7th Ward Alderperson](https://Rosinski2021.org)
+</strong></h1>
 
 <img align = "center">
 
