@@ -15,9 +15,9 @@
 
 <h4 align="center"><strong>Created By: Teresa Rosinski and Benjamin Jacobs</strong></h>
 
-[<img src = ./BenPic.jpg width=100 alt="Picture of BenjaminJacobs" />]
-[**BenjaminJacobs**](https://github.com/benjovi09)
 
+[<img src = "./BenPic.jpg"width=100 alt="GitHub avatar for author Ben Jacobs">](https://github.com/benjovi09)  
+[**BenjaminJacobs**](https://github.com/benjovi09)
 
 [<img src = "https://avatars2.githubusercontent.com/u/64601502?s=460&u=6e3ec9021f0e9990fa27ea14f27118ec463836e8&v=4" width=100 alt="GitHub avatar for author TeresaRosinski">](https://github.com/TeresaRosinski)  
 [**TeresaRosinski**](https://github.com/TeresaRosinski)
